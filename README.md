@@ -23,6 +23,10 @@ by default, the script needs to have the following networks ready:
 * vmbr9 - one of the shaper inbound networks on 10.9.0.0/24
 * vmbr10 - the network between OMR and the OMR client
 
+### The container Template
+
+In order to deploy the containers you need an existing Debian 10 template which you can install with pveam
+
 ### The scripts
 
 In order to deploy, first run deploy.sh
